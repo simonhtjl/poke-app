@@ -1,0 +1,43 @@
+.dtl-listPoke{
+    display: flex;
+    width: 70%;
+    height: 500px;
+    border-radius: 20px;
+    padding: 50px;
+    background-color: rgb(33, 73, 105);
+    border: 1px solid;
+    margin-left: 10%;
+
+}
+
+.dtl-imgpoke{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(170, 170, 161);
+    border-radius: 20px;
+}
+
+.dtl-namepoke{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin-left: 10%;
+    top: 0;
+}
+@media screen and (max-width: 1024px){
+    .dtl-listPoke{
+        padding: 20px;
+        height: 400px;
+        margin-left: 0;
+    }
+    .dtl-imgpoke{
+        width: 350px;
+        height: 350px;
+    }
+
+    .dtl-namepoke{
+        font-size: 25px;
+        margin-left: 30px;
+    }
+}

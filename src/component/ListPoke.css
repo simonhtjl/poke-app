@@ -1,0 +1,41 @@
+.listPoke{
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(33, 73, 105);
+    border: 1px solid;
+
+}
+
+.img-poke{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(170, 170, 161);
+    border-radius: 20px;
+}
+
+.name-poke{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+}
+
+.btn-poke{
+    width: 50px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #635cb1;
+    border: 1px solid;
+    border-color: blanchedalmond;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    
+}
+
+.btn-poke:active{
+    background-color: rgb(26, 26, 77);
+}
