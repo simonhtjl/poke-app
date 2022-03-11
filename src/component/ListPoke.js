@@ -44,6 +44,7 @@ export const ListPoke = () => {
         <div className="listPoke">
         <img src={item.img}
              className="img-poke"
+             alt=""
              onClick={() => navigate(`/pokemons/${item.id}?name=${item.name}`)}/>
         <span className="name-poke">{item?.name}</span><hr/>
         <button 

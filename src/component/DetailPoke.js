@@ -29,7 +29,7 @@ export const DetailPoke = () => {
 
   return(
     <div className="dtl-listPoke">
-    <img src={pokemonData?.img} className="dtl-imgpoke" />
+    <img src={pokemonData?.img} alt="" className="dtl-imgpoke" />
     <span className="dtl-namepoke">name : <br/>{pokemonData?.name}</span>
   </div>
   );
