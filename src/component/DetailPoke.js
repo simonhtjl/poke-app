@@ -1,11 +1,10 @@
 import {React,useEffect,useState} from 'react'
-import { useNavigate, useParams, } from "react-router-dom";
+import {  useParams, } from "react-router-dom";
 import {getPokemonByName} from '../services/axios'
 import './DetailPoke.css';
 
 export const DetailPoke = () => {
   const params = useParams()
-  const navigate = useNavigate();
   const [pokemonData, setPokemon] = useState(null);
   
   useEffect(() => {
